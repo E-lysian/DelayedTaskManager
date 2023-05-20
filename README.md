@@ -74,7 +74,7 @@ Tick..
 
 ### Create a new DelayedTask
 In order to create your own DelayedTask you can look at the already existing [BattleEndDelayedTask](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/DelayedTasks/BattleEndDelayedTask.cs).<br/>
-The way it works is that it inherits from the [BattleEndDelayedTask](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/DelayedTasks/IDelayedTask.cs) which contains two properties, `int Delay` and `Action DelayedTask`.
+The way it works is that it inherits from the [IDelayedTask](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/DelayedTasks/IDelayedTask.cs) which contains two properties, `int Delay` and `Action DelayedTask`.
 
 
 ```cs
