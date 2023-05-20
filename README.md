@@ -85,7 +85,7 @@ public interface IDelayedTask
 }
 ```
 
-In the main cycle it'll demonstrate how to register a new `DelayedTask` ([RegisterDelayedTask](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/Handlers/DelayedTaskHandler.cs#LL7C24-L7C24)) and how it checks for any queued `DelayedTask` ([DelayedTaskHandler](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/Handlers/DelayedTaskHandler.cs#L12))
+In the main cycle it'll demonstrate how to register a new `DelayedTask` ([RegisterDelayedTask](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/Handlers/DelayedTaskHandler.cs#LL7C24-L7C24)) and how it checks for any queued `DelayedTask` ([HandleDelayedTasks](https://github.com/E-lysian/DelayedTaskManager/blob/master/DelayedTaskManager/Handlers/DelayedTaskHandler.cs#L12))
 
 ```cs
 while (true)
