@@ -1,7 +1,7 @@
 ﻿using TickManager;
 using TickManager.Tick;
 
-var tickTaskHandler = new TickTaskHandler();
+var tickTaskHandler = new DelayedTaskHandler();
 
 var goblin = new NPC
 {

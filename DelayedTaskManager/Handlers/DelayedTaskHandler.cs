@@ -1,6 +1,6 @@
 ﻿namespace TickManager.Tick;
 
-public class TickTaskHandler
+public class DelayedTaskHandler
 {
     private readonly List<IDelayedTask> delayedTasks = new();
 
